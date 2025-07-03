@@ -3,25 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>FBI Cybersecurity Dashboard</title>
+  <title>FBI Cybersecurity Roadmap</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="dashboard">
+  <div class="layout">
     <aside class="sidebar">
-      <h2>🕵️‍♂️ FBI Roadmap</h2>
+      <h1>🕵️ FBI</h1>
       <nav>
-        <a href="#learning">🎓 Learning</a>
+        <a href="#learning">📚 Learning</a>
         <a href="#certs">💼 Certs</a>
-        <a href="#projects">🔧 Projects</a>
+        <a href="#projects">🧰 Projects</a>
         <a href="#ctfs">🏆 CTFs</a>
         <a href="#internship">🕵️ Internship</a>
-        <a href="#reading">📚 Reading</a>
+        <a href="#reading">📖 Reading</a>
       </nav>
     </aside>
-    <main class="content">
-      <section id="learning">
-        <h1>🎓 Learning Tracker</h1>
+    <main class="main">
+      <h2>Cybersecurity Roadmap (Age 16–18)</h2>
+
+      <section id="learning" class="card">
+        <h3>📚 Learning Tracker</h3>
         <ul>
           <li><input type="checkbox" /> TryHackMe: Intro to Cyber</li>
           <li><input type="checkbox" /> OverTheWire: Linux Basics</li>
@@ -29,41 +31,46 @@
           <li><input type="checkbox" /> Web Security & CTFs</li>
         </ul>
       </section>
-      <section id="certs">
-        <h1>💼 Certifications</h1>
+
+      <section id="certs" class="card">
+        <h3>💼 Certifications</h3>
         <ul>
           <li><input type="checkbox" /> CompTIA IT Fundamentals+</li>
           <li><input type="checkbox" /> CompTIA Security+</li>
           <li><input type="checkbox" /> Google Cybersecurity Cert</li>
         </ul>
       </section>
-      <section id="projects">
-        <h1>🔧 Projects</h1>
+
+      <section id="projects" class="card">
+        <h3>🧰 Projects</h3>
         <ul>
           <li>Password Generator – <a href="#">GitHub</a></li>
           <li>CTF Writeups – <a href="#">GitHub</a></li>
           <li>Portfolio Site – <a href="#">Live</a></li>
         </ul>
       </section>
-      <section id="ctfs">
-        <h1>🏆 Competitions</h1>
+
+      <section id="ctfs" class="card">
+        <h3>🏆 CTF Competitions</h3>
         <ul>
           <li><input type="checkbox" /> CyberPatriot</li>
           <li><input type="checkbox" /> PicoCTF</li>
           <li><input type="checkbox" /> HackTheBox</li>
         </ul>
       </section>
-      <section id="internship">
-        <h1>🕵️ Internship Prep</h1>
+
+      <section id="internship" class="card">
+        <h3>🕵️ Internship Prep</h3>
         <ul>
           <li><input type="checkbox" /> Resume Draft</li>
-          <li><input type="checkbox" /> Teen Academy / Field Visit</li>
+          <li><input type="checkbox" /> FBI Field Office Visit</li>
           <li><input type="checkbox" /> FBI Internship Application</li>
-          <li><input type="checkbox" /> Recommendation Letters</li>
+          <li><input type="checkbox" /> Letters of Recommendation</li>
         </ul>
       </section>
-      <section id="reading">
-        <h1>📚 Reading List</h1>
+
+      <section id="reading" class="card">
+        <h3>📖 Reading List</h3>
         <ul>
           <li><input type="checkbox" /> Ghost in the Wires</li>
           <li><input type="checkbox" /> The Cuckoo’s Egg</li>
